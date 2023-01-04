@@ -1,0 +1,205 @@
+*{margin: 0px;}
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+/*-----------------------header_------------------------------*/
+
+header{background-color: #43B14B;padding: 0px;;}
+.col-header-1 a{text-decoration: none; padding: 10px;color: white;}
+.col-header a{text-decoration: none;padding: 0px 4px; color: white;}
+.col-header-1 a i{padding:0px 10px;}
+
+.nav .home{background-color: #43B14B;color: white;border-radius: 0px;}
+.col-reg a{text-decoration: none; color: white;}
+
+
+
+
+/*---------------navbar-----------------------------------*/
+.nav{position: sticky;}
+ .navbar .nav-item .nav-link{color: black; padding:10px 20px;font-weight: 600;}
+
+
+
+
+
+ /*-------------slider------------------------------*/
+
+
+
+
+
+ .slider{background:url(./image/bg3.jpg) ; width: 100vw;height: 90vh; background-size: cover;position: center;object-fit: cover;background-color: rgba(0, 0, 0, 0.634);}
+ .slider-main{}
+ .slider-1{position: relative; background:url(./image/bg2.jpg) ; width: 100vw;height: 90vh; background-size: cover;position: center;object-fit: cover;background-color: rgba(0, 0, 0, 0.452);}
+ .slider-2{background:url(./image/bg12.jpg) ; width: 100vw;height: 90vh; background-size: cover;position: center;object-fit: cover;;}
+ .slider-main .owl-next{position: absolute;top: 40%;right: 8px;background-color: rgba(0, 0, 0, 0.634) !important;width: 30px !important;height: 100px ;color: white !important;}
+ .slider-main .owl-prev{position: absolute;top: 40%;left: 8px;background-color: rgba(0, 0, 0, 0.634) !important;width: 30px !important;height: 100px ;color: white !important;}
+ .slider-caption{position: absolute;top:32%; left: 30%; color: white;text-align: center;}
+ .slider-caption h1{font-size: 60px;;}
+ .slider-caption p{width: 600px;}
+ .slider-caption .our-service{background-color: #43B14B;color: white;border-radius: 0px}
+ .slider-caption .get{border: .9px solid white;color: white;border-radius: 0px;}
+ .head-main{overflow: hidden;}
+ .head-none h1{transform: translate(00%,-100%);}
+ .slider:hover h1{transform: translate(00%,00%);transition: 1s;}
+ .head-none p{transform: translate(00%,-100%);}
+ .slider:hover p{transform: translate(00%,00%);transition: 1s;}
+ .head-none .get{transform: translate(00%,-100%);}
+ .slider:hover .get{transform: translate(00%,00%);transition: 1s;}
+ .head-none .our-service{transform: translate(00%,-100%);}
+ .slider:hover .our-service{transform: translate(00%,00%);transition: 1s;}
+ 
+ .head-main{overflow: hidden;}
+ .head-none h1{transform: translate(00%,-100%);}
+ .slider-1:hover h1{transform: translate(00%,00%);transition: 1s;}
+ .head-none p{transform: translate(00%,-100%);}
+ .slider-1:hover p{transform: translate(00%,00%);transition: 1s;}
+ .head-none .get{transform: translate(00%,-100%);}
+ .slider-1:hover .get{transform: translate(00%,00%);transition: 1s;}
+ .head-none .our-service{transform: translate(00%,-100%);}
+ .slider-1:hover .our-service{transform: translate(00%,00%);transition: 1s;}
+
+ .head-main{overflow: hidden;}
+ .head-none h1{transform: translate(00%,-100%);}
+ .slider-2:hover h1{transform: translate(00%,00%);transition: 1s;}
+ .head-none p{transform: translate(00%,-100%);}
+ .slider-2:hover p{transform: translate(00%,00%);transition: 1s;}
+ .head-none .get{transform: translate(00%,-100%);}
+ .slider-2:hover .get{transform: translate(00%,00%);transition: 1s;}
+ .head-none .our-service{transform: translate(00%,-100%);}
+ .slider-2:hover .our-service{transform: translate(00%,00%);transition: 1s;}
+
+
+  
+
+
+
+
+
+
+ /*-----------------------------------next class--------------------------------*/
+
+ .next{background: url(./image/bg-pattern.png);background-size: cover;position: center;object-fit: cover;}
+ .next-item{background-color: #43b14ac8;margin-top: -10px;padding: 20px;}
+ .input-box input{margin:25px;;width: 200px;}
+ .input-box{text-align: center}
+ .input-box .submit{background-color: rgb(1, 1, 38);color: white;}
+
+
+
+
+ /*_-------------------------------------taylar class----------------------------------*/
+ .taylar{margin-top: 50px;}
+
+  .taylar .Purchase{background-color: rgb(0, 0, 67); color: white;}
+
+
+
+
+  /*------------------popular----------------------*/
+  .popular > .card{width: 400px !important;padding:10px!important; margin:10px; height: 400px!important;}
+  .popular{margin-top: 60px;}
+  
+.card-body img{width: 40px !important;border-radius: 100%;}
+.icon-1{color: #43B14B;}
+
+
+  /*----------------WHY CLASS----------------------*/
+  .col-{padding: 30px 10px;}
+  .col- a{font-size: 50px;color:#43B14B;}
+  .col- span{font-size: 20px;}
+
+
+  /*---------------------teacher class------------------------------------*/
+  .teacher{background-color: rgb(250, 250, 245);padding: 40px;}
+.card{position: relative;width: 300px !important;;margin: 10px;}
+  .hidd{overflow: hidden;position: absolute;bottom: 0px;}
+  .hidd-area .hidden-1{transform: translate(0%, 65%);text-align: center;background-color: white;padding: 20px;}
+  .card:hover .hidden-1{transform: translate(0%, 0%);text-align: center;transition: .6s;}
+  .hidd-2{overflow: hidden;position: absolute;top: 0px;right: 0px;width: 40px;}
+  .hidd-area-2 .hidden-2{transform: translate(0%, -100%);text-align: center;background-color: #43B14B;padding: 20px;color: white;}
+  .card:hover .hidden-2{transform: translate(0%, 0%);text-align: center;transition: .6s;}
+  .hidden-2 a i{padding:-10px;color: white;text-align: center;font-size: 10px;}
+
+
+
+  .main .col-xl-3{margin: 10px 0px;}
+  
+
+ 
+/*-----------------------------campus class--------------------------------------------*/
+.gall h1 {padding: 20px 80px;}
+.gall p{padding: 0px 100px;}
+
+.students .student{background-color: rgba(214, 218, 215, 0.688);color: black;border-radius: 0px; margin:20px 0px;flex-wrap: wrap;}
+.students .student:hover{background-color: rgb(0, 0, 57);color: white;; }
+.campus-item{text-align: center;;}
+.campus-item img{margin: 3px 0px;}
+.campus .d-flex{margin: 0px 80px;}
+
+
+
+/*------------------------number class-----------------------------*/
+.number{background: url(./image/bg2.jpg);width: 100%;background-size: cover; background-position: center; background-attachment: fixed;object-fit: cover;text-align: center;}
+.number h3{color: white;margin-top: 60px;}
+.number p{color: white;margin-top: 10px;}
+.number-don{background-color: rgba(1, 5, 133, 0.858);padding: 4px;height: 200px;}
+
+
+
+/*-----------------------------pricing class-------------------------------------*/
+.pricing{padding: 30px;}
+.pricing >.card{width: 400px !important;height: 500px !important;background-color: rgba(214, 218, 215, 0.688);margin: 10px;}
+.cour{text-align: center;}
+.pri{padding: 20px;text-align: center;}
+.month{text-align: center;font-size: 30px;color: #43B14B;background-color: white;}
+.main-1{font-size: 60px;;}
+
+.care ul{list-style: none;}
+.care ul li{ padding: 20px 0px;;}
+.care ul li i{padding: 1px ;background-color: rgb(2, 2, 85);color: white;font-size: 13px;border: 1px solid silver;}
+.pricing .now-2{width: 100%;color: white ;background-color: rgb(0, 0, 49);border-radius: 0px;position: absolute;bottom: 0px;}
+.pricing .col-xl-3:hover{padding:10px ;}
+
+
+
+
+/*------------------------------what class----------------------------------*/
+.what{background-color: rgb(250, 250, 245);padding: 20px;}
+ #people{color: #43B14B;} 
+
+.what .col-lg-6 #wha{width: 100%;height: 20px !important;}
+.what img{width: 30% !important; border-radius: 100%; height: 30%;}
+.wha{margin-left:30px ;}
+
+
+/*-----------------popular again  class-----------------------*/
+.popular{padding: 20px;}
+.card-body h5{font-weight: 700;}
+.icon-1 #by{color: black;padding: 10px;}
+.card-body .view{border: 1px solid;border-radius: 0px;}
+
+
+/* ------------------last class--------------------------*/
+.last{background-color: #43B14B;}
+
+
+
+/*------------------------footer-----------------------------*/
+.footer-main{background-color: rgba(0, 0, 0, 0.801);padding: 30px;}
+footer{background: url(./image/bg12.jpg);background-size: cover;background-position: center; object-fit: cover;background-color: rgba(0, 0, 0, 0.415);color: rgb(140, 138, 138);}
+.footer-main a{color: rgb(155, 150, 150);text-decoration: none;}
+.footer-main h3{color: white;font-size: 20px;}
+.footer-main i{padding: 10px;}
+#wed{margin: 00px 60px;}
+.d-flex .btn{ color: white;border-radius: 0px;margin-left: 40px !important;background-color: #43B14B;}
+.para p{font-size: 12px;}
+
+.footer-main a:hover{color: #43B14B;}
+.footer-main i:hover{color: #43B14B;}
+.main-last{background-color: black;color: white;}
+
+
+ 
+
+ 

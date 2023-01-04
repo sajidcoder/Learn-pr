@@ -1,0 +1,38 @@
+@media(max-width:576px){
+   .slider-caption{position: absolute;top:32%; left: 30%;transform: translate(-20%,0%);}
+   .input-box .submit{margin-left: 20px;}
+   .students{width:50%;flex-wrap: wrap;}
+   .input-box{padding:00px 70px; ;}
+   .vedio{width: 400px;height: 250px;}
+  
+
+}
+
+ 
+
+@media(width:776px){
+    .navbar{display: block;}
+    header{width: 33.33%;text-align: center;margin-left: 100px;}
+    
+    
+    
+   
+  
+}
+
+
+
+
+
+@media(width:992px){
+    .taylar .col-xl-6{flex-wrap: wrap;}
+    iframe{width: 300px;height: 250px;}
+  
+}
+
+
+
+
+@media(width:1192){
+
+  }
